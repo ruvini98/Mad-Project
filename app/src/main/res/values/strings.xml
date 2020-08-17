@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">MAD Project E1</string>
+    <string name="heading_students">Students</string>
+    <string name="btn_students">Students</string>
+    <string name="btn_attendance">Attendance</string>
+    <string name="btn_fees">Fees</string>
+
+    <string name="heading_student_options">Student Options</string>
+    <string name="btn_new_admission">New Admission</string>
+    <string name="btn_student_profile">Student profile</string>
+
+    <string name="heading_new_admission">New Admission</string>
+    <string name="txt_student_id">Student ID</string>
+    <string name="txt_student_name">Student Name</string>
+    <string name="txt_date_of_birth">Date of Birth</string>
+    <string name="txt_mobile_no">Mobile No</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_gender">Gender</string>
+    <string name="txt_s_id"> </string>
+    <string name="txt_s_name"> </string>
+    <string name="txt_dob"> </string>
+    <string name="txt_m_no"> </string>
+    <string name="txt_mail"> </string>
+    <string name="btn_add">Add</string>
+    <string name="radio1">Male</string>
+    <string name="radio2">Female</string>
+    <string name="txt_select">Select Courses</string>
+    <string name="check_b1">Bio</string>
+    <string name="check_b2">Maths</string>
+    <string name="check_b3">Chemistry</string>
+    <string name="check_b4">Physics</string>
+
+    <string name="txt_student_profile">Student Profile</string>
+    <string name="txt_pid">Student ID</string>
+    <string name="txt_p_name">Student Name</string>
+    <string name="txt_p_dob">Date of Birth</string>
+    <string name="txt_p_mobile">Mobile No</string>
+    <string name="txt_p_email">Email</string>
+    <string name="txt_selected">Selected Courses</string>
+    <string name="txt_sub1">Maths</string>
+    <string name="txt_sub2">Chemistry</string>
+    <string name="btn_update">Update</string>
+    <string name="btn_delete">Delete</string>
+    <string name="txt_id">SD058</string>
+    <string name="txt_name">P.Tharushika</string>
+    <string name="txt_birth">04/05/1998</string>
+    <string name="txt_phone">0701234567</string>
+    <string name="txt_email_address">tharu@gmail.com</string>
+
+    <string name="txt_heading"> </string>
+    <string name="txt_attendance">Attendance</string>
+    <string name="txt_date">Date</string>
+    <string name="txt_course">Course</string>
+    <string name="txt_date1"> </string>
+    <string name="txt_course1"> </string>
+    <string name="btn_cal">Calculate Attendance</string>
+    <string name="txt1">Student ID</string>
+    <string name="txt2">Present</string>
+    <string name="txt3">SD058</string>
+    <string name="txt4">Present</string>
+    <string name="txt5">SD088</string>
+    <string name="txt6">Present</string>
+
+    <string name="txt_heading2"> </string>
+    <string name="txt_fees">Course Fees</string>
+    <string name="txt_fid">Student ID</string>
+    <string name="txt_f_name">Student Name</string>
+    <string name="txt_fid1"> </string>
+    <string name="txt_name1"> </string>
+    <string name="txt_courses">Courses</string>
+    <string name="btn_calculate">Calculate Total Fees</string>
+    <string name="btn_pay">Click here to enter card details and make payment</string>
+    <string name="txt_total">Total  = </string>
+    <string name="txt_tot"> </string>
+    <string name="check1">Bio         RS 1500</string>
+    <string name="check2">Maths       RS 1800</string>
+    <string name="check3">Chemistry   RS 1000</string>
+    <string name="check4">Physics     RS 1200</string>
+
+    <string name="home"> </string>
+    <string name="txt_main_menu">Main Menu</string>
+    <string name="btn_student">Students</string>
+    <string name="btn_employees">Employees</string>
+    <string name="btn_courses">Courses</string>
+    <string name="btn_feedback">Feedback</string>
+
+
+</resources>
