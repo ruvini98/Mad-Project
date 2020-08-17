@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Feedback Management</string>
+
+    <string name="logo_image">logo image</string>
+    <string name="name">ADVENTURE TUTORING</string>
+    <string name="image">Image</string>
+
+    <string name="topic_home">FEEDBACK MANAGEMENT</string>
+    <string name="topic_01">STUDENT FEEDBACK</string>
+    <string name="topic_02">TEACHER FEEDBACK</string>
+    <string name="topic_03">TOTAL FEEDBACK COUNT</string>
+
+    <string name="button01">STUDENT FEEDBACK</string>
+    <string name="button02">TEACHER FEEDBACK</string>
+    <string name="button03">TOTAL FEEDBACK</string>
+    <string name="button04">UPDATE</string>
+    <string name="button05">SUBMIT</string>
+    <string name="button06">DELETE</string>
+    <string name="button07">ADD</string>
+
+    <string name="text_id_01">Student ID</string>
+    <string name="text_id_02">Teacher ID</string>
+    <string name="text_01">Name</string>
+    <string name="text_02">Email</string>
+    <string name="text_03">Contact Number</string>
+    <string name="text_04">Subject</string>
+    <string name="text_05">Feedback</string>
+
+    <string name="text_06">Student</string>
+    <string name="text_07">Teacher</string>
+    <string name="text_08">"Answer is : "</string>
+
+    <string name="input_text_student_id" />
+    <string name="input_text_teacher_id" />
+    <string name="input_text_name" />
+    <string name="input_text_email" />
+    <string name="input_text_contact_number" />
+    <string name="input_text_subject" />
+    <string name="input_text_feedback" />
+
+
+
+
+
+
+</resources>
