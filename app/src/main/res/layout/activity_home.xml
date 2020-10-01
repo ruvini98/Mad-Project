@@ -10,15 +10,15 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#DFFDDC"
-        tools:context=".Teacher"
+        tools:context=".TeacherMain"
         tools:layout_editor_absoluteX="138dp"
         tools:layout_editor_absoluteY="250dp">
 
         <TextView
-            android:id="@+id/textView14"
-            android:layout_width="172dp"
+            android:id="@+id/textView17"
+            android:layout_width="275dp"
             android:layout_height="74dp"
-            android:layout_marginStart="245dp"
+            android:layout_marginStart="140dp"
             android:background="@android:color/holo_orange_light"
             android:text="@string/name"
             android:textAlignment="center"
@@ -30,9 +30,10 @@
             app:layout_constraintVertical_bias="0.0" />
 
         <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="250dp"
-            android:layout_height="74dp"
+            android:id="@+id/imageView6"
+            android:layout_width="141dp"
+            android:layout_height="75dp"
+            android:background="@android:color/holo_red_dark"
             android:contentDescription="@string/logo_image"
             android:src="@drawable/logo"
             android:textAlignment="viewStart"
@@ -43,19 +44,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.0" />
-
-        <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="416dp"
-            android:layout_height="144dp"
-            android:contentDescription="@string/image"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.126"
-            app:srcCompat="@drawable/feedback" />
 
         <TextView
             android:id="@+id/textView15"
@@ -80,6 +68,7 @@
             android:layout_width="285dp"
             android:layout_height="51dp"
             android:background="#62E1DD"
+            android:onClick="openStudent"
             android:text="@string/button01"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -95,6 +84,7 @@
             android:layout_width="282dp"
             android:layout_height="50dp"
             android:background="#FF59AE"
+            android:onClick="openTeacher"
             android:text="@string/button02"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -110,6 +100,7 @@
             android:layout_width="283dp"
             android:layout_height="47dp"
             android:background="#F6E43D"
+            android:onClick="openTotal"
             android:text="@string/button03"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -120,36 +111,6 @@
             app:layout_constraintVertical_bias="0.788" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <TextView
-        android:id="@+id/textView27"
-        android:layout_width="172dp"
-        android:layout_height="74dp"
-        android:layout_marginStart="245dp"
-        android:background="@android:color/holo_orange_light"
-        android:text="@string/name"
-        android:textAlignment="center"
-        android:textSize="27sp"
-        android:textStyle="bold|italic"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="250dp"
-        android:layout_height="74dp"
-        android:contentDescription="@string/logo_image"
-        android:src="@drawable/logo"
-        android:textAlignment="viewStart"
-        android:textDirection="firstStrongRtl"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
         android:id="@+id/imageView8"

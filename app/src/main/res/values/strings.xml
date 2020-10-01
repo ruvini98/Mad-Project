@@ -13,10 +13,7 @@
     <string name="button01">STUDENT FEEDBACK</string>
     <string name="button02">TEACHER FEEDBACK</string>
     <string name="button03">TOTAL FEEDBACK</string>
-    <string name="button04">UPDATE</string>
-    <string name="button05">SUBMIT</string>
-    <string name="button06">DELETE</string>
-    <string name="button07">ADD</string>
+
 
     <string name="text_id_01">Student ID</string>
     <string name="text_id_02">Teacher ID</string>
@@ -30,16 +27,33 @@
     <string name="text_07">Teacher</string>
     <string name="text_08">"Answer is : "</string>
 
+
+
+    <string name="SubmitB">SUBMIT</string>
+    <string name="ShowB">SHOW</string>
+    <string name="UpdateB">UPDATE</string>
+    <string name="DeleteB">DELETE</string>
+
+    <string name="teacher_btn_submit">SUBMIT</string>
+    <string name="teacher_btn_show">SHOW</string>
+    <string name="teacher_btn_update">UPDATE</string>
+    <string name="teacher_btn_delete">DELETE</string>
+
+
+
+
     <string name="input_text_student_id" />
+    <string name="input_text_student_name" />
+    <string name="input_text_student_email" />
+    <string name="input_text_student_contact_number" />
+    <string name="input_text_student_feedback" />
+
     <string name="input_text_teacher_id" />
-    <string name="input_text_name" />
-    <string name="input_text_email" />
-    <string name="input_text_contact_number" />
-    <string name="input_text_subject" />
-    <string name="input_text_feedback" />
-
-
-
+    <string name="input_text_teacher_name" />
+    <string name="input_text_teacher_email" />
+    <string name="input_text_teacher_contact_number" />
+    <string name="input_text_teacher_subject" />
+    <string name="input_text_teacher_feedback" />
 
 
 

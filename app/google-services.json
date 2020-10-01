@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "800907734341",
+    "firebase_url": "https://feedback-management-a9731.firebaseio.com",
+    "project_id": "feedback-management-a9731",
+    "storage_bucket": "feedback-management-a9731.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800907734341:android:334427a92ee59cb6a2222c",
+        "android_client_info": {
+          "package_name": "com.example.feedbackmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "800907734341-fjhcthl0cl9lsh6120r7f5au0jgao3gr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA14UTu26LFv0wAOl3Vlmqu8EgKRQT5SU0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "800907734341-fjhcthl0cl9lsh6120r7f5au0jgao3gr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
