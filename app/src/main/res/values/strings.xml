@@ -41,11 +41,11 @@
     <string name="txt_sub2">Chemistry</string>
     <string name="btn_update">Update</string>
     <string name="btn_delete">Delete</string>
-    <string name="txt_id">SD058</string>
-    <string name="txt_name">P.Tharushika</string>
-    <string name="txt_birth">04/05/1998</string>
-    <string name="txt_phone">0701234567</string>
-    <string name="txt_email_address">tharu@gmail.com</string>
+    <string name="txt_id"></string>
+    <string name="txt_name"></string>
+    <string name="txt_birth"></string>
+    <string name="txt_phone"></string>
+    <string name="txt_email_address"></string>
 
     <string name="txt_heading"> </string>
     <string name="txt_attendance">Attendance</string>
@@ -83,6 +83,10 @@
     <string name="btn_employees">Employees</string>
     <string name="btn_courses">Courses</string>
     <string name="btn_feedback">Feedback</string>
+
+    <string name="txt_check">Enter ID</string>
+    <string name="btn_view">View Profile</string>
+
 
 
 </resources>

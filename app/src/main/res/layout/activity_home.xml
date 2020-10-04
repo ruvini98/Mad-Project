@@ -10,7 +10,7 @@
         android:id="@+id/textView38"
         android:layout_width="412dp"
         android:layout_height="96dp"
-        android:background="#151A40"
+        android:background="#1A0725"
         android:text="@string/home"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

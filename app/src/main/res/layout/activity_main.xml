@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     tools:context=".MainActivity">
 
     <View
         android:id="@+id/view"
         android:layout_width="408dp"
         android:layout_height="98dp"
-        android:background="#1C0E47"
+        android:background="#1A0725"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -18,7 +19,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tvStudents"
         android:layout_width="228dp"
         android:layout_height="52dp"
         android:background="#E2FFFFFF"
@@ -42,10 +43,10 @@
         app:srcCompat="@drawable/image1" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnStudents"
         android:layout_width="146dp"
         android:layout_height="45dp"
-        android:background="@android:color/black"
+        android:background="#7C3BA3"
         android:text="@string/btn_students"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="@android:color/background_light"
@@ -58,11 +59,11 @@
         app:layout_constraintVertical_bias="0.513" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnAttendance"
         android:layout_width="146dp"
         android:layout_height="45dp"
-        android:background="@android:color/black"
-        android:text="@string/btn_attendance"
+        android:background="#7C3BA3"
+        android:text="Schedule"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="@android:color/background_light"
         android:textSize="18sp"
@@ -74,10 +75,10 @@
         app:layout_constraintVertical_bias="0.708" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btnFees"
         android:layout_width="146dp"
         android:layout_height="45dp"
-        android:background="@android:color/black"
+        android:background="#7C3BA3"
         android:text="@string/btn_fees"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="@android:color/background_light"
@@ -88,18 +89,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/view"
         app:layout_constraintVertical_bias="0.899" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="150dp"
-        android:layout_height="120dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.885"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499"
-        app:srcCompat="@drawable/students" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -124,5 +113,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.728"
         app:srcCompat="@drawable/attendance" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="165dp"
+        android:layout_height="336dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.878"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498"
+        app:srcCompat="@drawable/students" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,14 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
     tools:context=".StudentOptionsActivity">
 
     <View
         android:id="@+id/view2"
         android:layout_width="414dp"
         android:layout_height="98dp"
-        android:background="#0A1143"
+        android:background="#1A0725"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -45,6 +44,7 @@
         android:id="@+id/view4"
         android:layout_width="409dp"
         android:layout_height="115dp"
+        android:background="#FBF6F6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.333"
@@ -53,10 +53,10 @@
         app:layout_constraintVertical_bias="0.848" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnNewAdmission"
         android:layout_width="241dp"
         android:layout_height="54dp"
-        android:background="@android:color/darker_gray"
+        android:background="#7C3BA3"
         android:text="@string/btn_new_admission"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textSize="24sp"
@@ -68,10 +68,10 @@
         app:layout_constraintVertical_bias="0.56" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/btnStudentProfile"
         android:layout_width="241dp"
         android:layout_height="54dp"
-        android:background="@android:color/darker_gray"
+        android:background="#7C3BA3"
         android:text="@string/btn_student_profile"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textSize="24sp"
@@ -107,7 +107,7 @@
         app:srcCompat="@drawable/profile" />
 
     <TextView
-        android:id="@+id/textView32"
+        android:id="@+id/tvStudentOptions"
         android:layout_width="238dp"
         android:layout_height="57dp"
         android:background="@android:color/background_light"
