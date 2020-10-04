@@ -66,7 +66,8 @@ public class TotalMain extends AppCompatActivity {
 
         });
 
-                //SAVE Button
+                //SAVE BUTTON
+
                 btnSave.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
@@ -84,7 +85,7 @@ public class TotalMain extends AppCompatActivity {
                             tot.setStudent(Integer.parseInt(num1.getText().toString().trim()));
                             tot.setTeacher(Integer.parseInt(num2.getText().toString().trim()));
                             tot.setTotal(Integer.parseInt(total.getText().toString().trim()));
-                            dbRef.child("01").setValue(tot);
+                            dbRef.child("").setValue(tot);
                             Toast.makeText(getApplicationContext(), "Total Feedback Saved Successfully", Toast.LENGTH_SHORT).show();
                             clearControls();
                         }
@@ -99,11 +100,12 @@ public class TotalMain extends AppCompatActivity {
 
 
                 // SHOW BUTTON
+
                 btnShow.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
 
-                        dbRef = FirebaseDatabase.getInstance().getReference().child("Total/01");
+                        dbRef = FirebaseDatabase.getInstance().getReference().child("Total");
                         dbRef.addListenerForSingleValueEvent(new ValueEventListener() {
 
                             @Override
@@ -124,6 +126,7 @@ public class TotalMain extends AppCompatActivity {
 
                         });
 
+
                         //DELETE BUTTON
 
                             btnDelete.setOnClickListener(new View.OnClickListener() {
@@ -134,8 +137,8 @@ public class TotalMain extends AppCompatActivity {
                                     delRef.addListenerForSingleValueEvent(new ValueEventListener() {
                                         @Override
                                         public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                                            if (dataSnapshot.hasChild("01")) {
-                                                dbRef = FirebaseDatabase.getInstance().getReference().child("Total").child("01");
+                                            if (dataSnapshot.hasChild("")) {
+                                                dbRef = FirebaseDatabase.getInstance().getReference().child("Total").child("");
                                                 dbRef.removeValue();
                                                 clearControls();
                                                 Toast.makeText(getApplicationContext(), "Feedback Deleted Successfully", Toast.LENGTH_SHORT).show();
@@ -151,8 +154,9 @@ public class TotalMain extends AppCompatActivity {
                                     });
                                 }
 
-                                });
-                    }});
-            }
+                            });
+                    }}
+                    );
+                  }
                 });
     }}

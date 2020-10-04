@@ -46,7 +46,9 @@ public class StudentMain extends AppCompatActivity {
 
         std = new Student();
 
-        //submit button
+
+        //SUBMIT BUTTON
+
         butSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -83,7 +85,7 @@ public class StudentMain extends AppCompatActivity {
             }});
 
 
-        //show button
+        //SHOW BUTTON
 
         butShow.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -112,7 +114,8 @@ public class StudentMain extends AppCompatActivity {
                 });
 
 
-                //update button
+                //UPDATE BUTTON
+
                 butUpdate.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
@@ -137,7 +140,7 @@ public class StudentMain extends AppCompatActivity {
 
                                     }
                                     catch (NumberFormatException e) {
-                                        Toast.makeText(getApplicationContext(), "Invalid Contact Number", Toast.LENGTH_SHORT).show();
+                                        Toast.makeText(getApplicationContext(), "Click Show Button To Update", Toast.LENGTH_SHORT).show();
 
                                     }
                                 }
@@ -156,23 +159,22 @@ public class StudentMain extends AppCompatActivity {
 
                     }
                 });
-
-
             }
         });
     }
-    private void clearControls() {
-        txtID.setText("");
-        txtName.setText("");
-        txtEmail.setText("");
-        txtContactNo.setText("");
-        txtSubject.setText("");
-        txtFeedback.setText("");
+
+             private void clearControls() {
+                 txtID.setText("");
+                 txtName.setText("");
+                 txtEmail.setText("");
+                 txtContactNo.setText("");
+                 txtSubject.setText("");
+                 txtFeedback.setText("");
 
 
 
 
-        //delete button
+        //DELETE BUTTON
 
         butDelete.setOnClickListener(new View.OnClickListener() {
 
@@ -191,8 +193,6 @@ public class StudentMain extends AppCompatActivity {
                             Toast.makeText(getApplicationContext(), "Feedback Deleted Successfully", Toast.LENGTH_SHORT).show();
                         }
                         else
-
-
                             Toast.makeText(getApplicationContext(), "No Feedback to Delete", Toast.LENGTH_SHORT).show();
                     }
 
@@ -203,7 +203,8 @@ public class StudentMain extends AppCompatActivity {
                 });
             }
         });
-    }}
+    }
+}
 
 
 

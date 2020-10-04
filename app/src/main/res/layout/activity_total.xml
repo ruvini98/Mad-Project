@@ -163,6 +163,7 @@
             android:background="#40C4FF"
             android:singleLine="false"
             android:text="@string/calculate_btn_total"
+            android:textSize="15sp"
             android:textStyle="bold" />
 
         <Button
@@ -171,6 +172,7 @@
             android:layout_height="wrap_content"
             android:background="@color/Submit"
             android:text="@string/save_btn_total"
+            android:textSize="15sp"
             android:textStyle="bold" />
     </LinearLayout>
 
@@ -192,7 +194,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@color/Show"
-            android:text="@string/show_btn_total" />
+            android:text="@string/show_btn_total"
+            android:textSize="15sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/BtnDelete"
@@ -200,7 +204,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@color/Delete"
-            android:text="@string/delete_btn_total" />
+            android:text="@string/delete_btn_total"
+            android:textSize="15sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

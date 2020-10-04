@@ -46,6 +46,7 @@ import com.google.firebase.database.annotations.NotNull;public class TeacherMain
         tch = new Teacher();
 
         //SUBMIT BUTTON
+
         buttonSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -82,7 +83,7 @@ import com.google.firebase.database.annotations.NotNull;public class TeacherMain
             }});
 
 
-        //show button
+        //SHOW BUTTON
 
         buttonShow.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -108,10 +109,13 @@ import com.google.firebase.database.annotations.NotNull;public class TeacherMain
                     @Override
                     public void onCancelled(@NotNull DatabaseError databaseError) {
                     }
+
                 });
 
 
+
                 //UPDATE BUTTON
+
                 buttonUpdate.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
@@ -136,7 +140,7 @@ import com.google.firebase.database.annotations.NotNull;public class TeacherMain
 
                                     }
                                     catch (NumberFormatException e) {
-                                        Toast.makeText(getApplicationContext(), "Invalid Contact Number", Toast.LENGTH_SHORT).show();
+                                        Toast.makeText(getApplicationContext(), "Click Show Button To Update", Toast.LENGTH_SHORT).show();
 
                                     }
                                 }
@@ -151,27 +155,22 @@ import com.google.firebase.database.annotations.NotNull;public class TeacherMain
                             }
                         });
 
-
-
                     }
                 });
-
-
             }
         });
     }
-    private void clearControls() {
-        txt1ID.setText("");
-        txt1Name.setText("");
-        txt1Email.setText("");
-        txt1ContactNo.setText("");
-        txt1Subject.setText("");
-        txt1Feedback.setText("");
+                private void clearControls() {
+                    txt1ID.setText("");
+                    txt1Name.setText("");
+                    txt1Email.setText("");
+                    txt1ContactNo.setText("");
+                    txt1Subject.setText("");
+                    txt1Feedback.setText("");
 
 
 
-
-        //delete button
+        //DELETE BUTTON
 
         buttonDelete.setOnClickListener(new View.OnClickListener() {
 
@@ -190,8 +189,6 @@ import com.google.firebase.database.annotations.NotNull;public class TeacherMain
                             Toast.makeText(getApplicationContext(), "Feedback Deleted Successfully", Toast.LENGTH_SHORT).show();
                         }
                         else
-
-
                             Toast.makeText(getApplicationContext(), "No Feedback to Delete", Toast.LENGTH_SHORT).show();
                     }
 
@@ -202,7 +199,8 @@ import com.google.firebase.database.annotations.NotNull;public class TeacherMain
                 });
             }
         });
-    }}
+    }
+}
 
 
 
