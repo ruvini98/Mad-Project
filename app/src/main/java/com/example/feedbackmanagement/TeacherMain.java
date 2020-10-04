@@ -45,7 +45,7 @@ import com.google.firebase.database.annotations.NotNull;public class TeacherMain
 
         tch = new Teacher();
 
-        //submit button
+        //SUBMIT BUTTON
         buttonSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -102,7 +102,7 @@ import com.google.firebase.database.annotations.NotNull;public class TeacherMain
                             txt1Subject.setText(dataSnapshot.child("subject").getValue().toString());
                             txt1Feedback.setText(dataSnapshot.child("feedback").getValue().toString());
                         } else
-                            Toast.makeText(getApplicationContext(), "Cannot find Feedback", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(getApplicationContext(), "Cannot find Teacher Feedback", Toast.LENGTH_SHORT).show();
                     }
 
                     @Override
@@ -111,7 +111,7 @@ import com.google.firebase.database.annotations.NotNull;public class TeacherMain
                 });
 
 
-                //update button
+                //UPDATE BUTTON
                 buttonUpdate.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {

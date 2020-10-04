@@ -8,25 +8,26 @@
     <string name="topic_home">FEEDBACK MANAGEMENT</string>
     <string name="topic_01">STUDENT FEEDBACK</string>
     <string name="topic_02">TEACHER FEEDBACK</string>
-    <string name="topic_03">TOTAL FEEDBACK COUNT</string>
+
 
     <string name="button01">STUDENT FEEDBACK</string>
     <string name="button02">TEACHER FEEDBACK</string>
-    <string name="button03">TOTAL FEEDBACK</string>
+    <string name="button03">FEEDBACK CALCULATOR</string>
+
+    <string name="text_id_student">Student ID</string>
+    <string name="text_name_student">Name</string>
+    <string name="text_email_student">Email</string>
+    <string name="text_contactNo_student">Contact Number</string>
+    <string name="text_subject_student">Subject</string>
+    <string name="text_feedback_student">Feedback</string>
 
 
-    <string name="text_id_01">Student ID</string>
-    <string name="text_id_02">Teacher ID</string>
-    <string name="text_01">Name</string>
-    <string name="text_02">Email</string>
-    <string name="text_03">Contact Number</string>
-    <string name="text_04">Subject</string>
-    <string name="text_05">Feedback</string>
-
-    <string name="text_06">Student</string>
-    <string name="text_07">Teacher</string>
-    <string name="text_08">"Answer is : "</string>
-
+    <string name="text_id_teacher">Teacher ID</string>
+    <string name="text_name_teacher">Name</string>
+    <string name="text_email_teacher">Email</string>
+    <string name="text_contactNo_teacher">Contact Number</string>
+    <string name="text_Subject_teacher">Subject</string>
+    <string name="text_feedback_teacher">Feedback</string>
 
 
     <string name="SubmitB">SUBMIT</string>
@@ -38,8 +39,6 @@
     <string name="teacher_btn_show">SHOW</string>
     <string name="teacher_btn_update">UPDATE</string>
     <string name="teacher_btn_delete">DELETE</string>
-
-
 
 
     <string name="input_text_student_id" />
@@ -54,6 +53,23 @@
     <string name="input_text_teacher_contact_number" />
     <string name="input_text_teacher_subject" />
     <string name="input_text_teacher_feedback" />
+
+
+    <string name="txt_student">Student   -</string>
+    <string name="txt_teacher">Teacher   -</string>
+    <string name="txt_total">Total Feedback  -</string>
+
+    <string name="input_text_student" />
+    <string name="input_text_teacher" />
+    <string name="text_total_feedback" />
+
+    <string name="hint_total_student">Enter Value</string>
+    <string name="hint_total_teacher">Enter Value</string>
+
+    <string name="calculate_btn_total">CALCULATE</string>
+    <string name="save_btn_total">SAVE</string>
+    <string name="delete_btn_total">DELETE</string>
+    <string name="show_btn_total">SHOW</string>
 
 
 

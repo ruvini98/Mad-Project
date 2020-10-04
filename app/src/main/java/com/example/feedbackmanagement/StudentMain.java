@@ -103,7 +103,7 @@ public class StudentMain extends AppCompatActivity {
                             txtSubject.setText(dataSnapshot.child("subject").getValue().toString());
                             txtFeedback.setText(dataSnapshot.child("feedback").getValue().toString());
                         } else
-                            Toast.makeText(getApplicationContext(), "Cannot find Feedback", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(getApplicationContext(), "Cannot find Student Feedback", Toast.LENGTH_SHORT).show();
                     }
 
                     @Override

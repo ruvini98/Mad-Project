@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
-    android:background="#F1FDFA"
+    android:background="#F9E8FF"
     android:textAlignment="gravity"
     tools:context=".StudentMain">
 
@@ -12,7 +12,7 @@
         android:id="@+id/imageView9"
         android:layout_width="141dp"
         android:layout_height="75dp"
-        android:background="@android:color/holo_red_dark"
+        android:background="@android:color/holo_purple"
         android:contentDescription="@string/logo_image"
         android:src="@drawable/logo"
         android:textAlignment="viewStart"
@@ -29,7 +29,7 @@
         android:layout_width="275dp"
         android:layout_height="74dp"
         android:layout_marginStart="140dp"
-        android:background="@android:color/holo_orange_light"
+        android:background="#F7C7FF"
         android:text="@string/name"
         android:textAlignment="center"
         android:textSize="27sp"
@@ -43,7 +43,7 @@
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/text_05"
+        android:text="@string/text_feedback_student"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -57,7 +57,7 @@
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/text_04"
+        android:text="@string/text_subject_student"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -71,7 +71,7 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/text_03"
+        android:text="@string/text_contactNo_student"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -85,7 +85,7 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/text_02"
+        android:text="@string/text_email_student"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -99,7 +99,7 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/text_01"
+        android:text="@string/text_name_student"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -123,7 +123,7 @@
         app:srcCompat="@drawable/feedback" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/text"
         android:layout_width="413dp"
         android:layout_height="32dp"
         android:background="#9BEFD5"
@@ -143,7 +143,7 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/text_id_01"
+        android:text="@string/text_id_student"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -212,15 +212,16 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="421dp"
-        android:layout_height="70dp"
+        android:layout_width="404dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="4dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="2dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.998">
+        app:layout_constraintVertical_bias="1.0">
 
         <Button
             android:id="@+id/ButSubmit"
@@ -228,7 +229,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@color/Submit"
-            android:text="@string/SubmitB" />
+            android:text="@string/SubmitB"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/ButShow"
@@ -236,7 +238,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@color/Show"
-            android:text="@string/ShowB" />
+            android:text="@string/ShowB"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/ButUpdate"
@@ -244,7 +247,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@color/Update"
-            android:text="@string/UpdateB" />
+            android:text="@string/UpdateB"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/ButDelete"
@@ -252,7 +256,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@color/Delete"
-            android:text="@string/DeleteB" />
+            android:text="@string/DeleteB"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <EditText

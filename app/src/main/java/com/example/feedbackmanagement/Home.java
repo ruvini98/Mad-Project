@@ -27,7 +27,7 @@ public class Home extends AppCompatActivity {
     }
 
     public void openTotal(View view) {
-        Intent intent = new Intent(this, Total.class);
+        Intent intent = new Intent(this, TotalMain.class);
 
         startActivity(intent);
     }
