@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Course Management</string>
+    <string name="Courses">Courses</string>
+    <string name="Exit">Exit</string>
+    <string name="logo">Logo</string>
+    <string name="biology">Biology</string>
+    <string name="chemistry">Chemistry</string>
+</resources>
