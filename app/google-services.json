@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "576237236692",
+    "firebase_url": "https://adventure-tutoring-7ce54.firebaseio.com",
+    "project_id": "adventure-tutoring-7ce54",
+    "storage_bucket": "adventure-tutoring-7ce54.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576237236692:android:810d4504ec7d10874ea641",
+        "android_client_info": {
+          "package_name": "com.example.adventuretutoring"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "576237236692-nnk5v2iulg84mtkr7pagp7rt5s0hnpno.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.adventuretutoring",
+            "certificate_hash": "4f9f53b93dccf5e61310015c9ff00501291071f9"
+          }
+        },
+        {
+          "client_id": "576237236692-tbim7mkhvv44psqtfd0mvu7kass7sja6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDz7S6UFuUl_qs6eFJxiZ-jkX4A6-c1cMU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "576237236692-tbim7mkhvv44psqtfd0mvu7kass7sja6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
